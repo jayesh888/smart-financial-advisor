@@ -1,0 +1,16 @@
+{
+  "as_of": "2025-06-30",
+  "currency": "INR",
+  "stocks": [
+    { "symbol": "ABC", "name": "ABC Bank Ltd", "sector": "Banking", "growth_pct_yoy": 10.5 },
+    { "symbol": "XYZ", "name": "XYZ FinServ", "sector": "NBFC", "growth_pct_yoy": 15.2 }
+  ],
+  "mutual_funds": [
+    { "code": "MF_EQ_EQTY", "name": "FinTech Equity Opportunities", "category": "Equity", "return_pct_3y_cagr": 14.8 },
+    { "code": "MF_BAL_MOD", "name": "Balanced Growth Fund", "category": "Hybrid", "return_pct_3y_cagr": 9.2 }
+  ],
+  "fixed_deposits": [
+    { "bank": "SafeBank", "tenure_months": 12, "rate_pct": 6.0 },
+    { "bank": "SafeBank", "tenure_months": 36, "rate_pct": 7.1 }
+  ]
+}
