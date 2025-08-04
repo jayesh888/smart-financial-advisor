@@ -1,0 +1,67 @@
+.toggleButtons {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.toggleButton {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid #1e40af;
+  background-color: #ffffff;
+  color: #1e40af;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.toggleButton:hover {
+  background-color: #1e40af;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(30, 64, 175, 0.3);
+}
+
+.activeButton {
+  background-color: #1e40af;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(30, 64, 175, 0.3);
+}
+
+.riskSelect {
+  margin-top: 8px;
+  padding: 8px 12px; /* ↓ Reduced padding */
+  border-radius: 8px;
+  border: 2px solid #1e40af;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: #1e40af;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.riskSelect:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(30, 64, 175, 0.4);
+}
+
+.compareButton {
+  padding: 10px 20px;
+  background-color: #1e40af;
+  color: white;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.compareButton:hover {
+  background-color: #1c3aa9;
+  box-shadow: 0 0 10px rgba(30, 64, 175, 0.3);
+}
